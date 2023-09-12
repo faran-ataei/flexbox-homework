@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px rgba(128, 128, 128, 0.347);
+    padding: 1rem 0px;
+}
+a {
+    text-decoration-line: none;
+}
+
+.para {
+    box-sizing: border-box;
+    border: solid 2px rgba(128, 128, 128, 0.406);
+    margin: 3rem;
+    border-radius: 10px;
+    white-space: pre-wrap;
+}
+span, .one {
+    margin: 30px 20px;
+    position: relative;
+    top: 15px;
+}
+span {
+    font-size: larger;
+    margin-top: 5rem;
+}
+
+.parent {
+    display: inline-block;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    text-align: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 173, 12);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 45px;
+}
+.flex {
+    position: relative;
+    top: 40px;
+    left: 3px;
+}
+body {
+    background-color: beige;
+}
+
+.description, .goal, .rules {
+    border-radius: 1rem;
+    background-color: gray;
+    padding-bottom: 100px;
+}
+.description {
+    width: 200px;
+}
+.para2 {
+    position: relative;
+    top: 55px;
+}
+img {
+    width: 200px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.red-link {
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    border-radius: 16px;
+}
+.onee {
+    position: relative;
+    top: 80px;
+}
+.two {
+    position: relative;
+    top: 27px;
+}
+.three{
+    position: relative;
+    top: 27px;
+}
+
+.rule {
+    height: 150px;
+}
